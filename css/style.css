@@ -98,7 +98,152 @@ body {
 }
 
 @media (min-width:0px) and (max-width:700px) {
-    .oppening .box{
+    .oppening .box {
         transform: scale(.7);
     }
+}
+
+.text {
+    color: #d3d3d3;
+    color: #e0e0e0;
+}
+
+/* body */
+
+body {
+    background-color: #202020;
+}
+
+
+/* nav */
+nav {
+    width: 100%;
+    background-color: #191b1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    box-shadow: 0px 0px 6px #000000e3;
+
+}
+
+nav .logo img {
+    width: 200px;
+}
+
+nav .nav-son {
+    width: 80%;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav .links a {
+    text-transform: uppercase;
+    color: #d3d3d3;
+    font-size: 14px;
+    padding: 5px 15px;
+    position: relative;
+    display: block;
+}
+
+nav .links a::after {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: solid 2px #00a6fe;
+    border-bottom: transparent;
+    border-right: transparent;
+    width: 12px;
+    aspect-ratio: 1/1;
+    opacity: 0;
+    transition: .3s;
+}
+
+nav .links a::before {
+    transition: .3s;
+    opacity: 0;
+    content: " ";
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border: solid 2px #00a6fe;
+    border-top: transparent;
+    border-left: transparent;
+    width: 12px;
+    aspect-ratio: 1/1;
+}
+
+nav .links a:hover::after,
+nav .links a:hover::before {
+    opacity: 1;
+}
+
+nav .btn-con {
+    display: flex;
+    gap: 10px;
+}
+
+nav .btn-con a {
+    background-color: #fafafa;
+    color: #191b1a;
+    color: #191b1a;
+    color: #fafafa;
+    padding: 6px 10px;
+    text-transform: lowercase;
+    background-color: #202020;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #0000003a;
+    border: solid 2px #00a6fe;
+    font-size: 14px;
+}
+
+nav .btn-con a:nth-child(2) {
+    background-color: #00a6fe;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+/* #########3 */
+
+main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+main .float-img {
+    position: absolute;
+}
+
+main .float-1 {
+    width: 300px;
+    top: 15%;
+    left: 15%;
+    opacity: .5;
+    transform: rotate(-20deg);
+}
+main .float-2 {
+    width: 300px;
+    top: 20%;
+    right: 17%;
+    opacity: .5;
+    transform: rotate(20deg);
+}
+main .float-3 {
+    width: 300px;
+    bottom: 10%;
+    right: 40%;
+    opacity: .5;
+    transform: rotate(0deg);
 }
