@@ -88,12 +88,17 @@ body {
 }
 
 .oppening .box .logo-text p {
-    transition: .8s ;
+    transition: .8s;
     color: #d3d3d3;
     text-transform: capitalize;
     height: 0px;
     width: 0px;
     overflow: hidden;
     opacity: 0px;
+}
 
+@media (min-width:0px) and (max-width:700px) {
+    .oppening .box{
+        transform: scale(.7);
+    }
 }
