@@ -104,17 +104,17 @@ body {
     }
 
     main .float-1 {
-        width: 30%;
+        width: 30% !important;
 
     }
 
     main .float-2 {
-        width: 40%;
+        width: 40% !important;
 
     }
 
     main .float-3 {
-        width: 30%;
+        width: 30% !important;
 
     }
 }
