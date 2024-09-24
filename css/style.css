@@ -102,6 +102,21 @@ body {
     .oppening .box {
         transform: scale(.7);
     }
+
+    main .float-1 {
+        width: 30%;
+
+    }
+
+    main .float-2 {
+        width: 40%;
+
+    }
+
+    main .float-3 {
+        width: 30%;
+
+    }
 }
 
 .text {
@@ -125,7 +140,9 @@ nav {
     align-items: center;
     padding: 15px 5%;
     box-shadow: 0px 0px 6px #000000e3;
-
+    position: fixed;
+    top: 0%;
+    left: 0%;
 }
 
 nav .logo img {
@@ -229,21 +246,23 @@ main .float-img {
 
 main .float-1 {
     width: 300px;
-    top: 15%;
-    left: 15%;
+    top: 20%;
+    left: 10%;
     opacity: .5;
     transform: rotate(-20deg);
 }
+
 main .float-2 {
     width: 300px;
-    top: 20%;
-    right: 17%;
+    top: 30%;
+    right: 13%;
     opacity: .5;
     transform: rotate(20deg);
 }
+
 main .float-3 {
     width: 300px;
-    bottom: 10%;
+    bottom: 3%;
     right: 40%;
     opacity: .5;
     transform: rotate(0deg);
