@@ -66,6 +66,7 @@ body {
     top: 0px;
     left: 0%;
     display: flex;
+    z-index: 999999999999;
 }
 
 .oppening .box {
