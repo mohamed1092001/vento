@@ -16,3 +16,7 @@ document.onreadystatechange = function () {
         }, 2500)
     }
 };
+
+$(".team .card button").click(function(){
+    $(this).closest(".card").toggleClass("active")
+})
