@@ -20,3 +20,12 @@ document.onreadystatechange = function () {
 $(".team .card button").click(function(){
     $(this).closest(".card").toggleClass("active")
 })
+
+
+$(".nav-son .close-btn").click(function(){
+    $(".nav-son").removeClass("mobile-active")
+})
+
+$(".nav-btn").click(function(){
+    $(".nav-son").addClass("mobile-active")
+})
