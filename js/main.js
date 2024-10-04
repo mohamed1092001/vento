@@ -29,3 +29,7 @@ $(".nav-son .close-btn").click(function(){
 $(".nav-btn").click(function(){
     $(".nav-son").addClass("mobile-active")
 })
+
+// window.onload = function () {
+//     window.scrollTo(0, 0);
+// };
