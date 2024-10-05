@@ -1138,8 +1138,9 @@ main .hero-img img {
 }
 
 .nav-son .close-btn:hover {
-    background-color: red;
+    background-color: #00a5fe9d;
     color: #fff;
+    cursor: pointer;
 }
 
 .nav-btn {

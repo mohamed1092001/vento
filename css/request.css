@@ -95,6 +95,7 @@ form {
     padding: 20px;
 }
 
+
 form .form-body{
     gap: 15px;
     display: flex;
@@ -103,7 +104,7 @@ form .form-body{
 
 form .form-body * {
     width: 100%;
-    background-color: #000;
+    background-color: #000000;
     resize: none;
     padding: 12px 13px;
     border-radius: 5px;
