@@ -17,6 +17,7 @@ document.onreadystatechange = function () {
     }
 };
 
+
 $(".team .card button").click(function(){
     $(this).closest(".card").toggleClass("active")
 })
@@ -30,6 +31,14 @@ $(".nav-btn").click(function(){
     $(".nav-son").addClass("mobile-active")
 })
 
-// window.onload = function () {
-//     window.scrollTo(0, 0);
-// };
+$(".logo").click(function () {
+    // تعطيل scroll-behavior:smooth
+    $("html").css("scroll-behavior", "auto");
+
+    // بدء الحركة
+    $("html, body").animate({ scrollTop: 0 }, 1000, function () {
+        // إعادة scroll-behavior:smooth عند الانتهاء
+        $("html").css("scroll-behavior", "smooth");
+    });
+});
+

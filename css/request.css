@@ -12,7 +12,6 @@
     user-select: none;
     scroll-behavior: smooth;
     font-family: "Red Hat Text", sans-serif;
-
 }
 
 /* width */
@@ -74,6 +73,48 @@ body {
 .rtl {
     direction: rtl;
 }
+
+/* .loading {
+    width: 100%;
+    height: 100%;
+    background-color: #191b1a;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    display: flex;
+    z-index: 999999999999;
+}
+
+.loading .square {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    gap: 20px;
+}
+
+.loading .square .icon {
+    width: 100px;
+}
+
+.loading .square .logo-text img {
+    height: 36.3px;
+    width: 0px;
+    object-fit: cover;
+    object-position: left;
+    transition: 1.2s;
+}
+
+.loading .square .logo-text p {
+    transition: .8s;
+    color: #d3d3d3;
+    text-transform: capitalize;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    opacity: 0px;
+} */
 
 /* body */
 
@@ -138,12 +179,14 @@ form textarea {
 form .form-body button{
     font-weight: bold;
     font-size: 13px;
+    transition: 0.5s;
 }
 
 form button:hover {
     background-color: #0089d3;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .bg{
